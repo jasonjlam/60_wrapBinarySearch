@@ -17,11 +17,18 @@ When I am asked to find the index of an object in a sorted list of n length, the
 can find the index of an object in a sorted list of n/2 length.
 
 Boolean: When the lowest index is greater than the highest index
+
 Base case: When the lowest index is equal to the highest index
+
 Recursive case: There are two recursive cases;
+
 If the index is lower then search from the lowest index to the current index - 1
+
 If the index is higher then search from the current index + 1 to the highest index
+
 There is no concatenation involved.
-There is also no leftovers.
+
+There are also no leftovers.
+
 All that matters is the check for if the current index is equal to the item being searched for.
 
